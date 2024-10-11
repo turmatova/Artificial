@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #020a18;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+/* HEADER */
+#header {
+  padding: 30px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-img {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  h3 {
+    font-size: 22.55px;
+    font-weight: 600;
+    line-height: 30.7px;
+    color: #3a68b8;
+  }
+}
+.header-text {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+  }
+}
+.header-btn {
+  button {
+    font-size: 16px;
+    font-weight: 600;
+    background: #3a68b8;
+    padding: 20px 40px;
+    border: none;
+    color: white;
+  }
+}
+/* HEADER */
+/* HERO */
+.hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-left {
+  h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3a68b8;
+  }
+  h1 {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 71.5px;
+    color: white;
+    margin-top: 20px;
+  }
+  p {
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    color: #bebaba;
+  }
+}
+.hero-btns {
+  display: flex;
+  gap: 20px;
+  button {
+    font-size: 19px;
+    font-weight: 600;
+    background: #3a68b8;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+  }
+}
+/* HERO */
+/* IMG */
+#img {
+  padding: 50px 0;
+}
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* IMG */
+/* APPLY */
+#apply {
+  padding: 50px 0;
+}
+.apply {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 40%;
+  }
+}
+.apply-text {
+  h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+  }
+  p {
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    color: #bebaba;
+  }
+  button {
+    font-size: 17px;
+    font-weight: 600;
+    background: #3a68b8;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+  }
+}
+/* APPLY */
+/* WINNERS */
+#winners {
+  padding: 50px 0;
+}
+.winners {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.winners-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 40px 0;
+}
+.winners-card {
+  width: 352px;
+  height: 379px;
+  border-radius: 10px;
+  background: #5d5c6072;
+  text-align: center;
+  img {
+    padding: 30px 0 10px 0;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30.25px;
+    padding: 20px 0;
+    color: #bebaba;
+  }
+  p {
+    color: #bebaba;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24.6px;
+  }
+}
+/* WINNERS */
+/* WHAT */
+#what {
+  padding: 50px 0;
+}
+.what {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.what-text {
+  h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+  }
+  p {
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    color: #bebaba;
+  }
+}
+/* WHAT */
+/* FOOTER */
+#footer {
+  padding: 50px 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-1 {
+  h3 {
+    font-size: 15.96px;
+    font-weight: 600;
+    color: #3a68b8;
+    padding: 10px 0 0 0;
+  }
+  p {
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 17.71px;
+    color: #bebaba;
+  }
+  h5 {
+    padding: 10px 0;
+    font-size: 15px;
+    color: white;
+  }
+}
+.footer-2 {
+  h3 {
+    font-size: 15.96px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 0 0 0;
+  }
+  h4 {
+    padding: 10px 0;
+    color: #bebaba;
+    font-size: 14px;
+    font-weight: 450;
+  }
+}
+.footer-3 {
+    h3 {
+
+      font-size: 15.96px;
+      font-weight: 600;
+      color: white;
+      padding: 10px 0 0 0;
+    }
+    h4 {
+      padding: 10px 0;
+      color: #bebaba;
+      font-size: 14px;
+      font-weight: 450;
+    }
+}
+  .footer-4 {
+    h3 {
+      font-size: 15.96px;
+      font-weight: 600;
+      color: white;
+      padding: 10px 0 0 0;
+    }
+    h4 {
+      padding: 10px 0;
+      color: #bebaba;
+      font-size: 14px;
+      font-weight: 450;
+    }
+}
+  .footer-5 {
+    h3 {
+      font-size: 15.96px;
+      font-weight: 600;
+      color: white;
+      padding: 60px 0 0 0;
+    }
+    p {
+        padding: 10px 0;
+        font-size: 14px;
+        font-weight: 450;
+        line-height: 17.71px;
+        color: #bebaba;
+    }
+    h5{
+      padding: 10px 0;
+      font-size: 15px;
+      color: white
+    }
+}
+  .footer-ion{
+    display: flex;
+    gap: 10px;
+    a{
+        color: #bebaba;
+        font-size: 20px;
+    }
+}
+  .footer-option{
+    display: flex;
+    gap: 10px;
+    a{
+      color: white;
+    }
+    select{
+      background: none;
+      border: none;
+      color: white;
+      option{
+        color:black;
+        background:none;
+      }
+    }
+}
+/* FOOTER */
+/* MEDIA */
+@media (max-width:750px) {
+  .container{
+    width: 90%;
+  }
+  .header-img {
+    h3 {
+        font-size: 17.55px;
+        font-weight: 500;
+        line-height: 19.7px;
+        color: #3a68b8;
+    }
+} 
+.header-btn {
+  button {
+      font-size: 15px;
+      font-weight: 500;
+      background: #3a68b8;
+      padding: 10px 35px;
+      border: none;
+      color: white;
+  }
+}
+.img{
+  img{
+    width: 30%;
+  }
+}
+.apply{
+  display: flex;
+  gap: 25px;
+}
+.apply-text {
+  h2 {
+      font-size: 36px;
+      line-height: 44px;
+  }
+}
+.winners {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.winners-card {
+  width: 201px;
+  height: 344px;
+  h3 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 29.25px;
+    padding: 15px 0;}
+    p {
+      font-size: 11px;
+      font-weight: 550;
+      line-height: 23.6px;
+  }
+}
+}
+/* MEDIA */
